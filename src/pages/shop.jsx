@@ -1,12 +1,13 @@
-import ShopHeroSection from "../components/product-section";
-import FilterSection from "../components/filter-section";
+import ProductSection from "../components/product-section";
 import Footer from "../components/footer";
 
 const Shop = () => {
+    
+
     return(
         <>
         <div className="flex justify-center pt-12">
-            <ShopHeroSection></ShopHeroSection>
+            <ProductSection/>
         </div>
         <Footer></Footer>
         </>
